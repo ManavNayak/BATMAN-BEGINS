@@ -5,7 +5,7 @@ class RainDrops{
         this.x = x;
         this.y = y;
         this.velocityY  = random(2,5);
-        this.color=color(random(0, 255), random(0, 255), random(0, 255));
+        this.color = blue;
         World.add(world, this.body);
     }
      fall(speed){
@@ -15,7 +15,6 @@ class RainDrops{
     display(){
         
         push();
-        colorMode(HSB);
         noStroke();
         //translate(pos.x,pos.y);
        
