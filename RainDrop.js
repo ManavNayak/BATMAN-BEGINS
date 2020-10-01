@@ -5,7 +5,6 @@ class RainDrops{
         this.x = x;
         this.y = y;
         this.velocityY  = random(2,5);
-        this.color = blue;
         World.add(world, this.body);
     }
      fall(speed){
@@ -18,7 +17,7 @@ class RainDrops{
         noStroke();
         //translate(pos.x,pos.y);
        
-        fill(this.color);
+        fill("blue");
         ellipse(this.x, this.y, this.radius);
         pop();
     }
